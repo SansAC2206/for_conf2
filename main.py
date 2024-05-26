@@ -4,7 +4,7 @@ import datetime
 
 print(datetime.datetime.now())
 
-bot = telebot.TeleBot('7133748808:AAEuk7b_wneistGdXL7Jg6s0UQuf5qBC4_I')
+bot = telebot.TeleBot('')
 file_path = 'instructions.txt'
 
 @bot.message_handler(commands=["start"])
